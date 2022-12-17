@@ -14,6 +14,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+   loading :  {  color :  '#39b982' ,  height :  '3px' ,  duration :  5000  } ,
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -30,7 +31,11 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    // https://go.nuxtjs.dev/axios
+    '@nuxtjs/axios',
+
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
